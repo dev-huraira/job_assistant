@@ -1,0 +1,35 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache and tool caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets: NEVER commit these
+.env
+.env.*
+!.env.example
+
+# Personal documents (CVs and similar)
+sample_cv.*
+*.pdf
+*.docx
+
+# Local databases and logs
+*.db
+*.sqlite3
+*.log
+
+# Generated files
+requirements.pinned.txt
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
